@@ -1,0 +1,2 @@
+Pattern scan for GitHub tokens and private-key headers: PASS; no matches.
+This limited pattern scan is not a security guarantee.

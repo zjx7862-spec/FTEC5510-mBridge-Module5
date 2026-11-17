@@ -1,0 +1,55 @@
+test_boundary (test_funding.FundingTests.test_boundary) ... ok
+test_constraints (test_funding.FundingTests.test_constraints) ... ok
+test_cumulative (test_funding.FundingTests.test_cumulative) ... ok
+test_e2e_fx (test_funding.FundingTests.test_e2e_fx) ... ok
+test_e2e_infeasible (test_funding.FundingTests.test_e2e_infeasible) ... ok
+test_e2e_wait (test_funding.FundingTests.test_e2e_wait) ... ok
+test_immediate (test_funding.FundingTests.test_immediate) ... ok
+test_late_and_insufficient (test_funding.FundingTests.test_late_and_insufficient) ... ok
+test_minimum (test_funding.FundingTests.test_minimum) ... ok
+test_nonfunding (test_funding.FundingTests.test_nonfunding) ... ok
+test_partial_pending_execution (test_funding.FundingTests.test_partial_pending_execution) ... ok
+test_pending (test_funding.FundingTests.test_pending) ... ok
+test_pure (test_funding.FundingTests.test_pure) ... ok
+test_ranking_and_loading (test_funding.FundingTests.test_ranking_and_loading) ... ok
+test_s4_funding_target (test_funding.FundingTests.test_s4_funding_target) ... ok
+test_skipping (test_funding.FundingTests.test_skipping) ... ok
+test_unknown (test_funding.FundingTests.test_unknown) ... ok
+test_wait (test_funding.FundingTests.test_wait) ... ok
+test_missing_input_matrix (test_review.CoverageTests.test_missing_input_matrix) ... ok
+test_missing_result_file (test_review.CoverageTests.test_missing_result_file) ... ok
+test_zero_or_missing_strategy_results (test_review.CoverageTests.test_zero_or_missing_strategy_results) ... ok
+test_confirmation_failure_release_replay (test_review.IntegrationTests.test_confirmation_failure_release_replay) ... ok
+test_engine_hides_unknown_future (test_review.IntegrationTests.test_engine_hides_unknown_future) ... ok
+test_every_event_replay_and_corruption (test_review.IntegrationTests.test_every_event_replay_and_corruption) ... ok
+test_review_scheduled_and_bounded (test_review.IntegrationTests.test_review_scheduled_and_bounded) ... ok
+test_s0_and_s1 (test_review.IntegrationTests.test_s0_and_s1) ... ok
+test_action_change_logged (test_review.LoggingTests.test_action_change_logged) ... ok
+test_constraint_change_logged (test_review.LoggingTests.test_constraint_change_logged) ... ok
+test_gap_and_topup_change (test_review.LoggingTests.test_gap_and_topup_change) ... ok
+test_real_fx_risk_transition (test_review.LoggingTests.test_real_fx_risk_transition) ... ok
+test_risk_change_logged (test_review.LoggingTests.test_risk_change_logged) ... ok
+test_target_switch_and_return (test_review.LoggingTests.test_target_switch_and_return) ... ok
+test_timestamp_only_deduplicated (test_review.LoggingTests.test_timestamp_only_deduplicated) ... ok
+test_full_late (test_review.TimingTests.test_full_late) ... ok
+test_full_timely (test_review.TimingTests.test_full_timely) ... ok
+test_missing_time (test_review.TimingTests.test_missing_time) ... ok
+test_multiple_sufficient_time (test_review.TimingTests.test_multiple_sufficient_time) ... ok
+test_notice_is_not_counted_twice_in_fx_amount (test_review.TimingTests.test_notice_is_not_counted_twice_in_fx_amount) ... ok
+test_part_timely_full_late (test_review.TimingTests.test_part_timely_full_late) ... ok
+test_partial_pending_late_new_fx_is_not_enough_alone (test_review.TimingTests.test_partial_pending_late_new_fx_is_not_enough_alone) ... ok
+test_partial_pending_unknown_new_fx (test_review.TimingTests.test_partial_pending_unknown_new_fx) ... ok
+test_partial_pending_with_notice (test_review.TimingTests.test_partial_pending_with_notice) ... ok
+test_pending_evidence_does_not_embed_old_reasons (test_review.TimingTests.test_pending_evidence_does_not_embed_old_reasons) ... ok
+test_unknown_time_not_needed_for_coverage (test_review.TimingTests.test_unknown_time_not_needed_for_coverage) ... ok
+test_corrupt_intermediate_balance (test_saved_audit.SavedAuditTests.test_corrupt_intermediate_balance) ... ok
+test_duplicate_comparison_rows (test_saved_audit.SavedAuditTests.test_duplicate_comparison_rows) ... ok
+test_fallback_in_summary (test_saved_audit.SavedAuditTests.test_fallback_in_summary) ... ok
+test_valid_saved_matrix (test_saved_audit.SavedAuditTests.test_valid_saved_matrix) ... ok
+test_wrong_input_digest (test_saved_audit.SavedAuditTests.test_wrong_input_digest) ... ok
+test_wrong_output_identity (test_saved_audit.SavedAuditTests.test_wrong_output_identity) ... ok
+
+----------------------------------------------------------------------
+Ran 50 tests in 0.869s
+
+OK

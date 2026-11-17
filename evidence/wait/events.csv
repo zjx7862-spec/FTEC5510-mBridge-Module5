@@ -1,0 +1,9 @@
+run_id,event_seq,time,event_type,payment_id,fx_id,action,reason
+dataset_S3,0,0,SIMULATION_START,,,INIT,strategy=S3;window=100
+dataset_S3,1,0,INFLOW_NOTICE,,,,inflow_id=F
+dataset_S3,2,1,PAYMENT_ARRIVAL,A,,,
+dataset_S3,3,1,FUNDING_DECISION,A,,WAIT,"notified_funding_timely;evidence={""confirmation_sec"": 2, ""deadline"": 30, ""deadline_risk"": false, ""forecast_source"": ""notified_only"", ""gap"": ""100.00"", ""notified_inflows"": [{""amount_rmb"": ""100.00"", ""arrival_time"": 10, ""inflow_id"": ""F""}], ""pending_fx"": [], ""pending_rmb"": ""0.00"", ""pending_sufficient_at"": null, ""pending_timing_unknown"": false, ""safety_sec"": 2, ""sufficient_at"": 10, ""t"": 1}"
+dataset_S3,4,10,INFLOW_ARRIVAL,,,,inflow_id=F;amount_rmb=100.00
+dataset_S3,5,10,PAYMENT_SUBMITTED,A,,SUBMIT,amount_rmb=100.00
+dataset_S3,6,12,PAYMENT_SETTLED,A,,,
+dataset_S3,7,100,SIMULATION_END,,,END,queued=0

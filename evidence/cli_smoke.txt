@@ -1,0 +1,12 @@
+dataset = pilot_low_rmb_liquidity_seed_1001
+scenario = low_rmb_liquidity | seed = 1001 | payments = 120 | inflows = 24
+
+strategy   settled  pending  queued   FX      FX cost
+-----------------------------------------------------
+S0             120        0       0   71    23,818.17
+S1             120        0       0   71    23,818.18
+S2             120        0       0   74    24,034.17
+S3             120        0       0   56    22,738.16
+S4             120        0       0   50    22,306.21
+
+Real Module 4/5 implementations are in use.

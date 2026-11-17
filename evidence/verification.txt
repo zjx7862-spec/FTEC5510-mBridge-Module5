@@ -1,0 +1,1 @@
+Hand cases: 3; pilot runs: 84; audits passed. See evidence/pilot_comparison.csv

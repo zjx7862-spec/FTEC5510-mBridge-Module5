@@ -1,0 +1,11 @@
+# Run from the Module5-delivery directory in PowerShell
+python -m unittest discover -s tests -v
+python verify.py
+python audit_saved.py
+python check_patch.py
+# Offline patch check with an already downloaded, pinned upstream engine:
+# python check_patch.py --upstream-file C:/path/to/pinned/engine.py
+python run_engine.py --dataset vendor/pilot/low_rmb_liquidity/seed_1001 --strategy all --dry-run
+
+# verify.py must precede audit_saved.py on a fresh delivery.
+# check_patch.py needs Git and network access unless --upstream-file is supplied.
